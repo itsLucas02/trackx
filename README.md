@@ -121,5 +121,4 @@ removal.
 
 ## License
 
-No license file is included in this repository. All rights reserved by the
-author unless a license is added.
+Released under the MIT License. See [LICENSE](LICENSE).
