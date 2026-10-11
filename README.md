@@ -5,7 +5,7 @@
 **Report and discuss local community safety incidents on a shared map and board.**
 
 TrackX is a community platform where residents report and discuss local safety
-incidents Ã¢â‚¬â€ theft, vandalism, hazards, suspicious activity, and lost & found Ã¢â‚¬â€
+incidents — theft, vandalism, hazards, suspicious activity, and lost & found —
 on a shared map and a discussion board. Reports describe events and behaviour,
 **never any person's ethnicity, religion, or nationality.**
 
@@ -13,19 +13,19 @@ Bilingual (English + Bahasa Malaysia), mobile-first, and installable as a PWA.
 
 ## Features
 
-- **Map-first interface** Ã¢â‚¬â€ MapLibre GL + `react-map-gl` with monochrome CARTO
+- **Map-first interface** — MapLibre GL + `react-map-gl` with monochrome CARTO
   basemaps (light/dark), clustered markers (`supercluster`), and a mobile
   draggable glass bottom sheet.
-- **Community board** Ã¢â‚¬â€ Newest / Trending / Near-me feeds, with live stats.
-- **Create a report** Ã¢â‚¬â€ title, description, category, tap-the-map location, and
+- **Community board** — Newest / Trending / Near-me feeds, with live stats.
+- **Create a report** — title, description, category, tap-the-map location, and
   up to 3 photos (compressed client-side, uploaded directly to Cloudflare R2 via
   presigned URLs). A posting-guidelines gate is shown before posting.
-- **Engagement** Ã¢â‚¬â€ upvotes, comments, and flagging (3 flags auto-hide a report).
-- **Notifications** Ã¢â‚¬â€ realtime bell powered by Supabase Realtime.
-- **Auth & profiles** Ã¢â‚¬â€ Supabase email/password and Google OAuth.
-- **Bilingual** Ã¢â‚¬â€ English + Bahasa Malaysia via `next-intl` (`/en`, `/ms`).
-- **Theming** Ã¢â‚¬â€ light/dark via `next-themes`, following the TrackX design system.
-- **PWA** Ã¢â‚¬â€ manifest, service worker, and offline page.
+- **Engagement** — upvotes, comments, and flagging (3 flags auto-hide a report).
+- **Notifications** — realtime bell powered by Supabase Realtime.
+- **Auth & profiles** — Supabase email/password and Google OAuth.
+- **Bilingual** — English + Bahasa Malaysia via `next-intl` (`/en`, `/ms`).
+- **Theming** — light/dark via `next-themes`, following the TrackX design system.
+- **PWA** — manifest, service worker, and offline page.
 - **Privacy & Terms** pages.
 
 ## Tech stack
@@ -47,7 +47,7 @@ Bilingual (English + Bahasa Malaysia), mobile-first, and installable as a PWA.
 
 - Node.js 20+
 - A Supabase project (self-hosted or hosted)
-- A Cloudflare R2 bucket (public read URL)
+- A Cloudflare R2 bucket (with a public read URL)
 
 ### 2. Install
 
@@ -113,13 +113,11 @@ public/             PWA manifest, service worker, offline page, icons
 design.md           TrackX design system (colors, spacing, layout rules)
 ```
 
-## Notes
+## Content policy
 
-- **Content policy:** reports must describe incidents and behaviour, not people
-  by ethnicity, religion, or nationality. Targeting or harassing any group is
-  grounds for removal.
-- Nutrition-style estimates are not used here Ã¢â‚¬â€ every report is user-authored
-  and editable by its owner.
+Reports must describe incidents and behaviour, not people by ethnicity,
+religion, or nationality. Targeting or harassing any group is grounds for
+removal.
 
 ## License
 
